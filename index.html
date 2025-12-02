@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="footycont">
+        <img src="./media/image.png" id="footy" alt="Footy">
+        <div class="logooverlay">
+            <img src="./media/logo.png" alt="logo" id="logo">
+            <div>Footly</div>
+        </div>
+        <div class="credit">Photo by <a href="https://unsplash.com/@markusspiske" target="_blank" noreferer
+                noopener>Markus Spiske</a> on <a href="https://unsplash.com/" target="_blank" noreferer
+                noopener>Unsplash</a></div>
+    </div>
+    <div class="signupdiv">
+        <div class="welcomediv">
+            Welcome to Footly, A platform for genuine football fans
+            <br><br>
+            Sign Up or Login now!
+        </div>
+        <div class="formdiv">
+            <div class="signup">Sign Up!</div>
+            <div class="inputs">
+                <form action="/signup" method="post" id="formsub">
+                    <div><fieldset><label for="first-name">FIRST NAME</label>
+                        <input type="text" name="first-name" id="first-name">
+                    </fieldset>
+                    <fieldset><label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email">
+                    </fieldset>
+                    <fieldset><label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password" minlength="8" maxlength="20">
+                    </fieldset></div>
+                    <div>
+                    <fieldset><label for="last-name">LAST NAME</label>
+                        <input type="text" name="last-name" id="last-name">
+                    </fieldset>
+                    <fieldset><label for="phoneno">PHONE NUMBER</label>
+                        <input type="number" name="phoneno" id="phoneno">
+                    </fieldset>
+                    <fieldset><label for="conpassword">CONFIRM PASSWORD</label>
+                        <input type="password" name="conpassword" id="conpassword" minlength="8" maxlength="20">
+                    </fieldset></div>
+                </form>
+            </div>
+        </div>
+        <div class="submitdiv">
+            <button type="submit" form="formsub">Create Account</button>
+            <div>Already have an account? <a href="./index.html/login">Log in</a></div>
+        </div>
+    </div>
+</body>
+
+</html>

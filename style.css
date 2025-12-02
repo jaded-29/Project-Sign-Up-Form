@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin: 0;
+    display: flex;
+    font-family: Roboto, Arial, sans-serif;
+}
+.footycont{
+    position: relative;
+    width: 32%;
+}
+#footy{
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+.logooverlay{
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    position: absolute;
+    top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logooverlay>div{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 55px;
+}
+.logooverlay>img{
+    width: 150px;
+}
+.credit{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+.credit a{
+    color: white;
+}
+.signupdiv{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    flex-grow:1;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+.welcomediv{
+    padding: 80px 50px 40px 50px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.formdiv{
+    background-color: white;
+    padding: 30px 50px;
+    box-shadow: 1px 1px 1px rgb(170, 170, 170);
+}
+.submitdiv{
+    padding: 30px 50px;
+}
+.submitdiv a{
+    color: #596D48;
+    text-decoration: none;
+}
+.submitdiv button{
+    width: 200px;
+    padding: 12px 35px;
+    background-color: #596D48;
+    color: white;
+    border: 0px;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 1px rgb(170, 170, 170);
+}
+.formdiv .signup{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+label{
+    display: block;
+    font-size: 11px;
+    font-weight: 500;
+    color: rgb(61, 61, 61);
+}
+input{
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+    width: 100%;
+    padding: 4px 10px;
+    outline:none;
+}
+input:invalid{
+    border: 1px solid #b80707;
+}
+input:focus{
+    border: 1px solid #0b0eec;
+    box-shadow: 1px 1px 1px #5a5a5a;
+}
+fieldset{
+    border:0px;
+    margin: 20px 0px;
+    padding:0px;
+}
+form{
+    display: flex;
+    gap: 100px;
+}
